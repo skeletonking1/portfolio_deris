@@ -454,12 +454,17 @@ header .navbar-nav li:nth-child(3):after { content: ''; position: absolute; bott
 }
 .iq-portfolio-box { position: relative; display: inline-block; width: 100%; }
 .iq-portfolio-box .iq-portfolio-image { position: relative; overflow: hidden; border-radius: 10px; }
-.iq-portfolio-info { margin-left: 60px; display: inline-block; width: 100%; z-index: 999; margin-top: 20px; transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; }
+.iq-portfolio-info { margin-left: 60px; 
+  display: inline-block; 
+  width: 100%; 
+  z-index: 999; 
+  margin-top: 10px; 
+  margin-bottom:10px;
+  transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; }
 .iq-portfolio-info h4 { line-height: normal; }
 .iq-portfolio-info h4 a:hover { text-decoration: none; }
 .iq-portfolio-info span { float: left; display: inline-block; width: 100%; float: Left; text-transform: capitalize; letter-spacing: 2px; font-size: 16px; }
 .iq-portfolio-box .iq-portfolio-image a { display: inline-block; width: 100%; height: 100%; }
-.iq-portfolio-box:hover .iq-portfolio-info { left: 0; bottom: 0; padding: 15px; margin-left: 0; }
 .iq-portfolio-box .iq-portfolio-image a { -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -webkit-transform: scale(1); transform: scale(1); }
 .iq-portfolio-box:hover .iq-portfolio-image a { -webkit-transform: scale(1.1); transform: scale(1.1); }
 .owl-carousel .iq-portfolio-box:hover .iq-portfolio-info { padding: 0 0 15px 0; }
